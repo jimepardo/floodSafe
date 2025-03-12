@@ -14,8 +14,8 @@ import os
 
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 # Micael Configuration
-GOOGLE_CLIENT_ID = "989274173980-ucahllq38fcd0qq9002pt7pch5skbmt8.apps.googleusercontent.com"
-GOOGLE_CLIENT_SECRET = "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"
+GOOGLE_CLIENT_ID = "4444"
+GOOGLE_CLIENT_SECRET = "111"
 GOOGLE_DISCOVERY_URL = (
     "https://accounts.google.com/.well-known/openid-configuration"
 )
