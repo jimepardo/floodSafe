@@ -13,12 +13,11 @@ import json
 import os
 
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
-# Micael Configuration
-GOOGLE_CLIENT_ID = "4444"
-GOOGLE_CLIENT_SECRET = "111"
-GOOGLE_DISCOVERY_URL = (
-    "https://accounts.google.com/.well-known/openid-configuration"
-)
+#GOOGLE_CLIENT_ID = "4444"
+#GOOGLE_CLIENT_SECRET = "111"
+#GOOGLE_DISCOVERY_URL = (
+ #   "https://accounts.google.com/.well-known/openid-configuration"
+#)
 client = WebApplicationClient(GOOGLE_CLIENT_ID)
 
 
